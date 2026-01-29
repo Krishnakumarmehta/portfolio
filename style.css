@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #0b0b3b;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+}
+.profile img{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: 5px solid yellow;
+  object-fit: cover;
+}
+.logo{
+  color: #fff;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-decoration:underline;
+  text-decoration-color:rgb(135, 124, 95);
+}
+.menu li{
+  padding: 20px 12px;
+  list-style: none;
+  color: #ebe8e8;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.menu li:hover{
+  background: rgb(10, 29, 127);
+  border-radius: 10px;
+  border-color: rgb(171, 171, 161) 10px solid;
+}
+.me{
+  margin: 15px 0;
+  line-height: 1.5;
+  color: #bbb;
+  padding-right: 35px;
+  text-align: left;
+  font-size: 20px;
+}
+.name{
+  margin-left: 0px;
+  text-align: left;
+  color: #bbb;
+  font-family: 59px;
+}
+.names{
+  color: #ffb400;
+}
+.nam{
+  margin-left: 0px;
+  text-align: left;
+  font-size: 50px;
+}
+.social a{
+  color: #ffb400;
+  margin-right: 15px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+.social{
+  margin-left: 0px;
+  text-align: left;
+}
+.social a:hover{
+  color: #fff;
+}
+.content{
+  text-align: center;
+  flex: 1;
+  gap: 60px;
+}
+.container{
+  background-color: rgb(9, 9, 97);
+  display: flex;
+  text-align: center;
+}
+.photo{
+  margin-left: 35px;
+  margin-right: 30px;
+  margin-top: 14%;
+  margin-bottom: 54.8%;
+}
+.info{
+  margin-top: 27%;
+  margin-bottom: 30%;
+}
